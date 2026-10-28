@@ -10,6 +10,9 @@ app.use(express.json());
 const authRoutes = require("./routes/auth");
 app.use("/api/auth", authRoutes);
 
+const projectRoutes = require("./routes/projects");
+app.use("/api/projects", projectRoutes);
+
 app.get("/api/health", async (req, res) => {
   try {
     await pool.query("SELECT 1");
