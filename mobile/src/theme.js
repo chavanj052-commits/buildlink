@@ -1,0 +1,77 @@
+export const theme = {
+  colors: {
+    primary: '#0f1b2d', // Dark navy
+    primaryLight: '#1e2d42',
+    primaryDark: '#09111e',
+    accent: '#e8a838', // Golden orange
+    accentDark: '#d4982f',
+    accentLight: '#fef3c7',
+    background: '#f5f6fa',
+    card: '#ffffff',
+    text: '#1a1a2e',
+    textSecondary: '#6b7280',
+    textMuted: '#9ca3af',
+    textLight: '#ffffff',
+    success: '#22c55e',
+    successLight: '#dcfce7',
+    warning: '#f59e0b',
+    warningLight: '#fef3c7',
+    danger: '#ef4444',
+    dangerLight: '#fee2e2',
+    info: '#3b82f6',
+    infoLight: '#dbeafe',
+    border: '#e5e7eb',
+    divider: '#f3f4f6',
+    inputBg: '#f9fafb',
+    overlay: 'rgba(15, 27, 45, 0.6)',
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 40,
+  },
+  borderRadius: {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24,
+    full: 9999,
+  },
+  fontSize: {
+    xs: 12,
+    sm: 14,
+    md: 16,
+    lg: 20,
+    xl: 24,
+    xxl: 32,
+  },
+  shadows: {
+    subtle: {
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 1 },
+      shadowOpacity: 0.05,
+      shadowRadius: 3,
+      elevation: 2,
+    },
+    card: {
+      shadowColor: '#0f1b2d',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.08,
+      shadowRadius: 12,
+      elevation: 4,
+    },
+    floating: {
+      shadowColor: '#e8a838',
+      shadowOffset: { width: 0, height: 6 },
+      shadowOpacity: 0.35,
+      shadowRadius: 10,
+      elevation: 8,
+    },
+  },
+};
+
+export default theme;

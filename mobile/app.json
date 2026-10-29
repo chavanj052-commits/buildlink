@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "BuildLink",
+    "slug": "buildlink-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f1b2d"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.buildlink.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f1b2d"
+      },
+      "package": "com.buildlink.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BuildLink needs access to your photos to upload project progress and receipts."
+        }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ]
+  }
+}
